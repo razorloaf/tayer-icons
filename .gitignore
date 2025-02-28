@@ -1,0 +1,10 @@
+/dist
+/src/icons
+/src/index.tsx
+/node_modules
+*.log
+.cache
+.DS_Store
+.env
+.npmignore
+package-lock.json

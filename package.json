@@ -1,0 +1,35 @@
+{
+  "name": "@razorloaf/a11y00p-icons",
+  "private": false,
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Developer-friendly icons with accessibility and change-safe features.",
+  "main": "dist/a11y00p-icons.cjs.production.min.js",
+  "module": "dist/a11y00p-icons.esm.production.min.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "generate": "node scripts/build-icon.js",
+    "generate:force": "node scripts/build-icon.js --force",
+    "build": "rimraf dist && tsdx build --format es,cjs --entry src/index.tsx && del-cli \"dist/*.development.*\" \"dist/*.map\"",
+    "build:full": "npm run generate && npm run build",
+    "build:force": "npm run generate:force && npm run build",
+    "prepublishOnly": "npm run build:full"
+  },
+  "peerDependencies": {
+    "react": "^16.x || ^17.x || ^18.x"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "del-cli": "^6.0.0",
+    "rimraf": "^5.0.0",
+    "tsdx": "^0.14.1",
+    "typescript": "^5.0.0"
+  }
+}
