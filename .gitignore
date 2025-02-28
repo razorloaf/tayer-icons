@@ -1,5 +1,4 @@
 /dist
-/src/icons
 /src/index.tsx
 /node_modules
 *.log
