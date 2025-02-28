@@ -1,5 +1,4 @@
 /dist
-/src/index.tsx
 /src/AccessibilityUtils.ts
 /src/IconFamily.tsx
 /src/IconFamilyContext.tsx
