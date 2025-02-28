@@ -1,5 +1,9 @@
 /dist
 /src/index.tsx
+/src/AccessibilityUtils.ts
+/src/IconFamily.tsx
+/src/IconFamilyContext.tsx
+/scripts/build-icon.js
 /node_modules
 *.log
 .cache
