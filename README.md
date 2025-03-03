@@ -1,15 +1,15 @@
-# a11y00p Icons
+# Tayer Icons
 
 **Developer-friendly icons with accessibility and change-safe features built-in.**
 
 ## Installation
 
 ```bash
-npm install @razorloaf/a11y00p-icons
+npm install @razorloaf/tayer-icons
 # or
-yarn add @razorloaf/a11y00p-icons
+yarn add @razorloaf/tayer-icons
 # or
-pnpm add @razorloaf/a11y00p-icons
+pnpm add @razorloaf/tayer-icons
 ```
 
 ## Adding Your Own Icons
@@ -35,7 +35,7 @@ This icon library is built with an approach that is both simpler for developers 
 
 ```jsx
 // Import only what you need
-import { Home, Settings } from '@razorloaf/a11y00p-icons';
+import { Home, Settings } from '@razorloaf/tayer-icons';
 
 // Use with zero configuration
 function App() {
@@ -66,7 +66,7 @@ Our build pipeline transforms raw SVG files into fully-featured React components
 
 ```jsx
 // Automatically generated React component with accessibility, OS integration, and more
-import { Home } from '@razorloaf/a11y00p-icons';
+import { Home } from '@razorloaf/tayer-icons';
 
 function MyComponent() {
   return <Home />;
@@ -87,7 +87,7 @@ This completely eliminates the gap between design assets and implementation, pro
 
 ## Invisible Accessibility Infrastructure
 
-Unlike traditional icon libraries that make accessibility an afterthought or extra work, a11y00p icons include a comprehensive accessibility infrastructure that works invisibly:
+Unlike traditional icon libraries that make accessibility an afterthought or extra work, Tayer icons include a comprehensive accessibility infrastructure that works invisibly:
 
 ### Context-Aware Accessibility
 
@@ -107,7 +107,7 @@ When an icon appears inside an interactive element, it knows to become decorativ
 
 ### OS Integration Without Overhead
 
-Traditional icons ignore OS accessibility settings, creating a disconnect between user preferences and actual experience. a11y00p icons automatically respect:
+Traditional icons ignore OS accessibility settings, creating a disconnect between user preferences and actual experience. Tayer icons automatically respect:
 
 - **High Contrast Mode**: Icons adapt their appearance when Windows High Contrast Mode is active, enhancing visibility for low-vision users
 - **Reduced Motion Preferences**: Any animations respect the user's motion preferences
@@ -136,7 +136,7 @@ While accessibility is automatic, developers retain full control:
 
 ## IconFamily: Design System Acceleration
 
-Traditional icon libraries treat icons as isolated entities, ignoring their role in design systems. a11y00p's IconFamily feature enables true design system thinking:
+Traditional icon libraries treat icons as isolated entities, ignoring their role in design systems. Tayer's IconFamily feature enables true design system thinking:
 
 **The Pattern Problem:**
 
@@ -180,7 +180,7 @@ For teams managing dozens or hundreds of icons, this reduces maintenance effort 
 ### Basic Usage
 
 ```jsx
-import { Home, Settings, User } from '@razorloaf/a11y00p-icons';
+import { Home, Settings, User } from '@razorloaf/tayer-icons';
 
 function App() {
   return (
@@ -196,7 +196,7 @@ function App() {
 ### Icon Families
 
 ```jsx
-import { IconFamily, Home, Settings, User } from '@razorloaf/a11y00p-icons';
+import { IconFamily, Home, Settings, User } from '@razorloaf/tayer-icons';
 
 function Navigation() {
   // Create a navigation icon family with consistent styling
