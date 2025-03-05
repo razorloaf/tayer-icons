@@ -2,12 +2,17 @@
   "name": "@razorloaf/tayer-icons",
   "author": "Josh Hoy, https://j-o.sh",
   "private": false,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "description": "Developer-friendly icons with accessibility and change-safe features.",
   "main": "dist/tayer-icons.cjs.production.min.js",
   "module": "dist/tayer-icons.esm.production.min.js",
-  "keywords": ["icons", "a11y", "tayer", "react"],
+  "keywords": [
+    "icons",
+    "a11y",
+    "tayer",
+    "react"
+  ],
   "types": "dist/index.d.ts",
   "files": [
     "dist",
