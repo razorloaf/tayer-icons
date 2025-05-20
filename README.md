@@ -4,7 +4,7 @@
 
 ## Installation
 
-View our icons and how to install, import, and use them at [tayer-icons.com/installation](https://tayer-icons/installation).
+View our icons and how to install, import, and use them at [j-o.sh/docs/tayer](https://j-o.sh/docs/tayer).
 
 ## Author
 
